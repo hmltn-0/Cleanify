@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>File Cleanup App</title>
+    <style>
+      body { font-family: Arial, sans-serif; background-color: #121212; color: #ffffff; padding: 20px; }
+      h1 { color: #bb86fc; }
+      button { padding: 10px 15px; margin: 5px; background-color: #bb86fc; color: #121212; border: none; border-radius: 5px; cursor: pointer; }
+      button:hover { background-color: #3700b3; }
+      .container { background-color: #1f1f1f; padding: 20px; border-radius: 5px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Welcome to File Cleanup App</h1>
+      <p>This application helps you clean up files in Desktop, Documents, and Downloads directories on macOS. It uses an AI to analyze and suggest actions for your files.</p>
+      <button onclick="scanFiles()">Scan Files</button>
+      <button onclick="displayMetrics()">Show Metrics</button>
+      <button onclick="generateDescriptions()">Generate Descriptions</button>
+    </div>
+
+    <script>
+      function scanFiles() {
+        alert("Scanning Files...");
+      }
+
+      function displayMetrics() {
+        alert("Displaying Metrics...");
+      }
+
+      function generateDescriptions() {
+        alert("Generating Descriptions...");
+      }
+    </script>
+  </body>
+</html>
