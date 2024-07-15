@@ -1,1 +1,17 @@
-{"name": "filecleanupapp","version": "1.0.0","description": "A simple, modest but useful tool to clean up files in Desktop, Documents, and Downloads directories on macOS.","main": "main.js","scripts": {"start": "electron ."},"author": "","license": "ISC","devDependencies": {"electron": "latest"}}
+{
+  "name": "filecleanupapp",
+  "version": "1.0.0",
+  "description": "A simple, modest but useful tool to clean up files in Desktop, Documents, and Downloads directories on macOS.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo \"Add build steps here\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^31.2.0",
+    "electron-reload": "^2.0.0-alpha.1"
+  }
+}
